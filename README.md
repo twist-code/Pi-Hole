@@ -42,10 +42,14 @@ As per below image, the IP has been changed and it is now static  <br/>
 <br />
 Step 5: Manually download the installer and run  <br/>
 <img src="https://i.imgur.com/EqxBoEv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1XupHvO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eyUnELp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/V3W9neV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/74s0yY2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 7: After successful installation, the admin password will be provided: (to use for web interface)  <br/>
+<img src="https://i.imgur.com/WkbCH4S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
