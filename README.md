@@ -1,13 +1,24 @@
 <h1>Pi-Hole</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+The Pi-Hole project is a network-wide ad blocker that i did set up on a computer, like a Raspberry Pi, to filter and block unwanted advertisements and malicious websites for all devices connected to my virtual environment.
+It acts as a sinkhole which intercepts DNS requests from devices and blocks requests to known ad-serving domains preventing ads from being loaded.
 <br />
 
+<h2>Skills Obtained</h2>
 
-<h2>Languages and Utilities Used</h2>
+- <b>DNS & IP Addressing Understanding:</b> Knowledge the role of DNS servers, DNS resolution process and IP role in networking.
+- <b>System Administration:</b>  Installing and configuring software on a server, likely on a Linux-based system.
+- <b>Command-Line Proficiency:</b> Enhanced ability to use the command line for system management tasks.
+- <b>Ad Blocking:</b> The methods used to block advertisements and unwanted domains at the network level.
+- <b>Malware and Phishing Prevention:</b> Preventing access to malicious sites and improve overall network security.
+- <b>Diagnosing Network Issues:</b> Identifying and resolving issues related to DNS and general network connectivity.
+- <b>Data Analysis:</b> Analyze logs to identify patterns, blocked domains, and potential security threats. Reading and interpreting system and network logs to troubleshoot problems.
+- <b>System Optimization:</b> Optimizing system performance by identifying and resolving bottlenecks or misconfigurations.
+- <b>End-User Training:</b> Ability to explain how the Pi-Hole works and its benefits to non-technical users.
+- <b>Planning and Execution:</b> Skills in planning and executing a technical project from start to finish.
+
+<h2>Utilities Used</h2>
 
 - <b>Ubuntu Terminal</b> 
 - <b>Pi-Hole</b>
@@ -17,7 +28,7 @@ Project consists of a simple PowerShell script that walks the user through "zero
 - <b>Windows 11 VM</b> (the device to monitor)
 - <b>Ubuntu 22.14 VM</b> 
 
-<h2>Program walk-through:</h2>
+<h2>Project walk-through:</h2>
 
 <p align="center">
 Step 1: Updating repositories and libraries <br/>
