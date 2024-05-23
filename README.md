@@ -40,8 +40,8 @@ As per below image, the IP has been changed and it is now static  <br/>
 <img src="https://i.imgur.com/AOi74kF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 5: Manually download the installer and run  <br/>
+<img src="https://i.imgur.com/EqxBoEv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Observe the wiped disk:  <br/>
