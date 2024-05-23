@@ -21,23 +21,23 @@ Project consists of a simple PowerShell script that walks the user through "zero
 
 <p align="center">
 Step 1: Updating repositories and libraries <br/>
-<img src="https://imgur.com/RIA2Tmj" alt="Pi-Hole steps"/>
+<img src="https://i.imgur.com/RIA2Tmj.png" height="80%" width="80% alt="Pi-Hole steps"/>
 <br />
 <br />
 Step 2: Changing the IP address to Static  <br/>
-<img src="https://imgur.com/J0QhxYg" height="80%" width="80%" alt="Pi-Hole steps"/>
+<img src="https://i.imgur.com/K0Ikpv0.png" height="80%" width="80%" alt="Pi-Hole steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Pi-Hole steps"/>
+Step 3: sudo nano /etc/netplan/00-installer-config.yaml <br/>
+<img src="https://i.imgur.com/JCSj5aZ.png" height="80%" width="80%" alt="Pi-Hole steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 4: sudo netplan apply (This will give us many warnings as we’re making our IP static)  <br/>
+<img src="https://i.imgur.com/dqJlWrI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+As per below image, the IP has been changed and it is now static  <br/>
+<img src="https://i.imgur.com/AOi74kF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Sanitization complete:  <br/>
