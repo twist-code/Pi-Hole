@@ -21,15 +21,15 @@ Project consists of a simple PowerShell script that walks the user through "zero
 
 <p align="center">
 Step 1: Updating repositories and libraries <br/>
-<img src="https://imgur.com/LI8A8hL" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/RIA2Tmj" alt="Pi-Hole steps"/>
 <br />
 <br />
 Step 2: Changing the IP address to Static  <br/>
-<img src="https://imgur.com/J0QhxYg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/J0QhxYg" height="80%" width="80%" alt="Pi-Hole steps"/>
 <br />
 <br />
 Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Pi-Hole steps"/>
 <br />
 <br />
 Confirm your selection:  <br/>
