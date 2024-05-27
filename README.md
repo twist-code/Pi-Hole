@@ -44,7 +44,7 @@ Step 3: sudo nano /etc/netplan/00-installer-config.yaml <br/>
 <br />
 <br />
 Step 4: sudo netplan apply (This will give us many warnings as we’re making our IP static)  <br/>
-<img src="https://i.imgur.com/dqJlWrI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dqJlWrI.png" height="80%" width="80%" alt="Pi-Hole steps"/>
 <br />
 <br />
 As per below image, the IP has been changed and it is now static  <br/>
@@ -52,15 +52,29 @@ As per below image, the IP has been changed and it is now static  <br/>
 <br />
 <br />
 Step 5: Manually download the installer and run  <br/>
-<img src="https://i.imgur.com/EqxBoEv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/1XupHvO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/eyUnELp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/V3W9neV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/74s0yY2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EqxBoEv.png" height="80%" width="80%" alt="Pi-Hole steps"/>
+<img src="https://i.imgur.com/1XupHvO.png" height="80%" width="80%" alt="Pi-Hole steps"/>
+<img src="https://i.imgur.com/eyUnELp.png" height="80%" width="80%" alt="Pi-Hole steps"/>
+<img src="https://i.imgur.com/V3W9neV.png" height="80%" width="80%" alt="Pi-Hole steps"/>
+<img src="https://i.imgur.com/74s0yY2.png" height="80%" width="80%" alt="Pi-Hole steps"/>
 <br />
 <br />
-Step 7: After successful installation, the admin password will be provided: (to use for web interface)  <br/>
-<img src="https://i.imgur.com/WkbCH4S.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 6: After successful installation, the admin password will be provided: (to use for web interface)  <br/>
+<img src="https://i.imgur.com/WkbCH4S.png" height="80%" width="80%" alt="Pi-Hole steps"/>
+ <br />
+ <br />
+Step 7: Changing DNS settings on the windows VM (setting up our Pi-Hole Ip address as the DNS server) <br/>
+<img src="https://i.imgur.com/YqnhMw2.png" height="80%" width="80%" alt="Pi-Hole steps"/>
+<img src="https://i.imgur.com/wQGM7Zv.png" height="80%" width="80%" alt="Pi-Hole steps"/>
+ <br />
+ <br />
+Step 8: Start monitoring DNS activities and blocked queries on Ubuntu VM (Pi-Hole host) <br/>
+Open a browser and navigate to 192.168.100.12/admin and Log in with the password provided (when we were setting up Pi-hole) <br/>
+<img src="https://i.imgur.com/7UEUDVN.png" height="80%" width="80%" alt="Pi-Hole steps"/> <br/>
+ <br/>
+ Within the query logs we can see which were blacklisted and those who were allowed <br/>
+<img src="https://i.imgur.com/imV3MtE.png" height="80%" width="80%" alt="Pi-Hole steps"/>
+<img src="https://i.imgur.com/d95P36D.png" height="80%" width="80%" alt="Pi-Hole steps"/>
 </p>
 
 <!--
