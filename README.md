@@ -74,8 +74,14 @@ Open a browser and navigate to 192.168.100.12/admin and Log in with the password
  <br/>
  Within the query logs we can see which were blacklisted and those who were allowed <br/>
 <img src="https://i.imgur.com/imV3MtE.png" height="80%" width="80%" alt="Pi-Hole steps"/>
+  <br/>
+For example, we can also add more ads to the list using Pi-Hole, any of those we know can contain any type of malware. <br/>
 <img src="https://i.imgur.com/d95P36D.png" height="80%" width="80%" alt="Pi-Hole steps"/>
+ <br/>
+ <h1 align="center">THANK YOU</h1>
 </p>
+
+
 
 <!--
  ```diff
