@@ -32,7 +32,7 @@ It acts as a sinkhole which intercepts DNS requests from devices and blocks requ
 
 <p align="center">
 Step 1: Updating repositories and libraries <br/>
-<img src="https://i.imgur.com/RIA2Tmj.png" height="80%" width="80% alt="Pi-Hole steps"/>
+<img src="https://i.imgur.com/RIA2Tmj.png" height="80%" width="80%" alt="Pi-Hole steps"/>
 <br />
 <br />
 Step 2: Changing the IP address to Static  <br/>
